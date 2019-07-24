@@ -14,7 +14,8 @@ Save degraded data to the new folder ./blu/
 
 ## Training
   ```
-  python3 CycleGAN.py --cuda --oridataPath ./ori --bludataPath ./blu  ```
+  python3 CycleGAN.py --cuda --oridataPath ./ori --bludataPath ./blu  
+  ```
 
 ## Generate
   ```
