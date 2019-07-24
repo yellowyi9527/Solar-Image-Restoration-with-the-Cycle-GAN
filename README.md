@@ -6,7 +6,9 @@
 
 ## DATASET
 Data sets need to be built in advance according to the principles of the paper.
+
 Save the high-resolution data to the new folder ./ori/
+
 Save degraded data to the new folder ./blu/
 
 
