@@ -19,7 +19,7 @@
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
 ```
-<img src=videotio.png" width="256"> 
+<img src=videotio.mp4" width="256"> 
 ```
 
 ## Reference
