@@ -18,6 +18,7 @@
   ```
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
+***sumular tio data *** 
 ```
 <img src=out_pitcture/tio.png" width="256"> 
 ```
