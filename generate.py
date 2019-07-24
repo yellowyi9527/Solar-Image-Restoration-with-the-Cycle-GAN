@@ -22,8 +22,8 @@ parser.add_argument('--ndf', type=int, default=64)
 parser.add_argument('--cuda', action='store_true', help='enables cuda')
 parser.add_argument('--outf', default='samples/', help='folder to output images and model checkpoints')
 parser.add_argument('--manualSeed', type=int, help='manual seed')
-parser.add_argument('--dataPath_de', default='/home/lab30201/yellow/data_project/cycleGANdeconvolution/data/T_disentangle/test/', help='' )
-parser.add_argument('--dataPath_or', default='/home/lab30201/yellow/data_project/cycleGANdeconvolution/data/T_disentangle/or/', help='' )
+parser.add_argument('--bludataPath', default='/home/lab30201/yellow/data_project/cycleGANdeconvolution/data/T_disentangle/test/', help='' )
+parser.add_argument('--oridataPath', default='/home/lab30201/yellow/data_project/cycleGANdeconvolution/data/T_disentangle/or/', help='' )
 parser.add_argument('--loadSize', type=int, default=256, help='scale image to this size')
 parser.add_argument('--fineSize', type=int, default=256, help='random crop image to this size')
 parser.add_argument('--flip', type=int, default=0, help='1 for flipping image randomly, 0 for not')
@@ -52,7 +52,7 @@ if opt.cuda:
 cudnn.benchmark = True
 ##########   DATASET   ###########
 
-datasetA = DATASET_fits(opt.dataPath_or,opt.fineSize)
+datasetA = DATASET_fits(opt.oridataPath,opt.fineSize)
 loader_A= torch.utils.data.DataLoader(dataset=datasetA,
                                        batch_size=opt.batchSize,
                                        shuffle=False,
@@ -60,7 +60,7 @@ loader_A= torch.utils.data.DataLoader(dataset=datasetA,
 loaderA = iter(loader_A)
 
 
-datasetB = DATASET_fits(opt.dataPath_de,opt.fineSize)
+datasetB = DATASET_fits(opt.bludataPath,opt.fineSize)
 loader_B= torch.utils.data.DataLoader(dataset=datasetB,
                                        batch_size=opt.batchSize,
                                        shuffle=False,
