@@ -18,9 +18,9 @@
   ```
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
-**sumular tio data **
+sumular tio data 
 ```
-![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
+![image](https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/halpha.png)
 ```
 
 ## Reference
