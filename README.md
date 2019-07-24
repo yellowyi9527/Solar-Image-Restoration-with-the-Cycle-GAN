@@ -19,9 +19,7 @@
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
 sumular tio data 
-```
-![image](https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/halpha.png)
-```
+<img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/tio.png" width="688px"/>
 
 ## Reference
 1. [https://github.com/junyanz/CycleGAN](https://github.com/junyanz/CycleGAN)
