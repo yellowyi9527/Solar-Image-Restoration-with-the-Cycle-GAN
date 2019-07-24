@@ -18,9 +18,15 @@
   ```
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
-sumular tio data 
+### simular tio data 
 <img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/tio.png" width="688px"/>
+### simular halpha data
+<img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/halpha.png" width="688px"/>
+### tio video
+<img src='https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/videoTio.gif' >
 
+### halpha video
+<img src='https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/videoHa.gif'>
 ## Reference
 1. [https://github.com/junyanz/CycleGAN](https://github.com/junyanz/CycleGAN)
 2. Zhu J Y, Park T, Isola P, et al. Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks[J]. arXiv preprint arXiv:1703.10593, 2017.
