@@ -17,8 +17,12 @@
   python3 generate.py --G_AB checkpoints/G_AB_6000.pth --G_BA checkpoints/G_BA_6000.pth -cuda --bludataPath ./** ordataPath ./**
   ```
 To train or generate on dataset, change `dataPath` accordingly.
+## Result
+```
+<img src=videotio.png" width="256"> 
+```
 
 ## Reference
 1. [https://github.com/junyanz/CycleGAN](https://github.com/junyanz/CycleGAN)
 2. Zhu J Y, Park T, Isola P, et al. Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks[J]. arXiv preprint arXiv:1703.10593, 2017.
-3.[https://github.com/sunshineatnoon/Paper-Implementations/tree/master/cycleGAN](https://github.com/sunshineatnoon/Paper-Implementations/tree/master/cycleGAN)
+3. [https://github.com/sunshineatnoon/Paper-Implementations/tree/master/cycleGAN](https://github.com/sunshineatnoon/Paper-Implementations/tree/master/cycleGAN)
