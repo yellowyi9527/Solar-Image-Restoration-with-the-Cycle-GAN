@@ -19,9 +19,9 @@
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
 ### simular tio data 
-<img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/tio.png" width="256px"/>
+<img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/tio.png" width="600px"/>
 ### simular halpha data
-<img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/halpha.png" width="256px"/>
+<img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/halpha.png" width="600px"/>
 ### tio video
 <img src='https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/videoTio.gif'>
 ### halpha video
