@@ -5,16 +5,18 @@
 - torchvision
 
 ## DATASET
+Data sets need to be built in advance according to the principles of the paper.
+Save the high-resolution data to the new folder ./ori/
+Save degraded data to the new folder ./blu/
 
 
 ## Training
   ```
-  python3 CycleGAN.py --cuda --oridataPath ./** --bludataPath ./**
-  ```
+  python3 CycleGAN.py --cuda --oridataPath ./ori --bludataPath ./blu  ```
 
 ## Generate
   ```
-  python3 generate.py --G_AB checkpoints/G_AB_6000.pth --G_BA checkpoints/G_BA_6000.pth -cuda --bludataPath ./** ordataPath ./**
+  python3 generate.py --G_AB checkpoints/G_AB_6000.pth --G_BA checkpoints/G_BA_6000.pth -cuda --bludataPath ./blu --ordataPath ./ori
   ```
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
