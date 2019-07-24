@@ -18,16 +18,16 @@
   ```
 To train or generate on dataset, change `dataPath` accordingly.
 ## Result
-### simular tio data 
+### Simulated Blurred Tio Data 
 <img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/tio.png" width="600px"/>
 
-### simular halpha data
+### Simulated Blurred  H-alpha Data
 <img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/halpha.png" width="600px"/>
 
-### tio video
+### Real Observation Tio Video
 <img src='https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/videoTio.gif'>
 
-### halpha video
+### Real Observation H-alpha Video
 <img src='https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/videoHa.gif'>
 
 ## Reference
