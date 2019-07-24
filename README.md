@@ -20,7 +20,7 @@ To train or generate on dataset, change `dataPath` accordingly.
 ## Result
 **sumular tio data **
 ```
-<img src="out_pitcture/tio.png" width="256"> 
+![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
 ```
 
 ## Reference
