@@ -24,10 +24,10 @@ To train or generate on dataset, change `dataPath` accordingly.
 ### Simulated Blurred  H-alpha Data
 <img src="https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/halpha.png" width="600px"/>
 
-### Real Observation Tio Video
+### Real Observation Tio Video Data
 <img src='https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/videoTio.gif'>
 
-### Real Observation H-alpha Video
+### Real Observation H-alpha Video Data
 <img src='https://github.com/yellowyi9527/Solar-Image-Restoration-with-the-Cycle-GAN/blob/master/out_picture/videoHa.gif'>
 
 ## Reference
